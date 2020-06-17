@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\DataStructure">
+      <UniqueIdentifier>{25145ccc-6a10-49de-b832-e9bcc9a6a41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Grammar">
+      <UniqueIdentifier>{3ed4320c-835a-4623-b3b5-0291276deac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Grammar">
+      <UniqueIdentifier>{13db6378-d027-49b5-8b0b-06d0cb5fcd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\WordLink">
+      <UniqueIdentifier>{bbf2c2b4-78f3-4db4-a4be-3c5619444fd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ictclas30.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\BufferString.h">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\MultiLinkList.h">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\StackQueueList.h">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar\Grammar.h">
+      <Filter>头文件\Grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar\Precept.h">
+      <Filter>头文件\Grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar\Projection.h">
+      <Filter>头文件\Grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar\Set.h">
+      <Filter>头文件\Grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar\StringLink.h">
+      <Filter>头文件\Grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar\IniFile.h">
+      <Filter>头文件\Grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="WordLink\WordLinkList.h">
+      <Filter>头文件\WordLink</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Analysis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar\Grammar.cpp">
+      <Filter>源文件\Grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar\Precept.cpp">
+      <Filter>源文件\Grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar\Projection.cpp">
+      <Filter>源文件\Grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar\Set.cpp">
+      <Filter>源文件\Grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar\StringLink.cpp">
+      <Filter>源文件\Grammar</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+[TERMINAL]
+pwd ppd ped pad pod asvd asod refd asoad atvd atod atoad preo hw
+[LL1]
+SC->P A
+P->PW PP PE PA
+PW->pwd
+PW->@
+PP->ppd
+PP->@
+PE->ped
+PE->@
+PA->pad pod
+PA->@
+A->AS AT
+AS->ASV ASO
+AS->@
+ASV->asvd
+ASO->ASOP asod ASOI
+ASOP->preo hw
+ASOP->@
+ASOI->REF ASOA
+ASOI->@
+REF->refd
+REF->@
+ASOA->asoad
+AT->ATV ATO
+ATV->atvd
+ATO->ATOP atod ATOI
+ATOP->preo hw
+ATOP->@
+ATOI->REF ATOA
+ATOI->@
+ATOA->atoad

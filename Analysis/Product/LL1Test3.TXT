@@ -1,0 +1,9 @@
+[TERMINAL]
+preo pi ppd hw
+[LL1]
+SC->PRE PPO PPI PRE PPB
+PRE->preo hw
+PRE->@
+PPO->ppd
+PPI->pi
+PPB->ppd

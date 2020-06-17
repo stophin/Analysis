@@ -1,0 +1,21 @@
+[LL1]
+E->N EP
+E->N = E
+EP->E2 EP
+EP->@
+E2->l N E3
+E2->r E E3
+E2->@
+E3->l E E3
+E3->r E E3
+E3->@
+N->T s
+N->T
+T->( E )
+T->fun ( F )
+T->s T
+T->val
+T->var
+F->E FP
+FP->, E FP
+FP->@
